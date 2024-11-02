@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import C from './utils/c++.png'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body class='dark'>
+      <div className='justify-center items-center flex'>
+        <h1 className="text-4xl font-extrabold  text-blue-600">
+          ¡Bienvenido a mi portafolio!
+        </h1>
+        <img className="w-32 h-32" src={C} alt="C++"/>
+      </div>
+    </body>
+    
   );
 }
 
